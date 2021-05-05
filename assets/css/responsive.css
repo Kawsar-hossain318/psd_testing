@@ -1,0 +1,361 @@
+
+
+/* responsive here */
+@media (max-width:700px){
+    .header_one{
+        display: block;
+        padding-top: 10px;
+    }
+    .header_two{
+        height: 485px;
+    }
+    .header_one .nav_brand{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .header_one .menu{
+        width: 100%;
+        text-align: center;
+    }
+    .header_one .buttons{
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .header_two .layer_one {
+        width: 80%;
+        height: 500px;
+        right: 0;
+    }
+    .header_two_txt {
+        width: 90%;
+        font-size: 24px;
+        padding-left: 10px;
+    }
+    .header_two_search_box #search {
+        position: absolute;
+        width: 280px;
+        top: 300px;
+        left: 10px;
+    }
+    .header_two_search_box img {
+        top: 320px;
+        left: 15px;
+    }
+    .search_text {
+        width: 115px;
+        background: #ffcc01;
+        border: none;
+        position: absolute;
+        top: 300px;
+        left: 225px;
+    }
+    .layer_two {
+        width: 70%;
+        height: 60px;
+        right: 0px;
+        top: 480px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .scroll .sc1 {
+        position: absolute;
+        top: 420px;
+        left: 20px;
+    }
+    .layer_phone {
+        padding: 0 15px;
+        font-size: 14px;
+    }
+    .scroll .sc2 {
+        position: absolute;
+        top: 500px;
+        left: 18px;
+    }
+    .layer_loction {
+        padding-right: 5px;
+        font-size: 14px;
+    }
+    #company_statistics {
+        width: 100%;
+        height: 650px;
+        display: block;
+    }    
+    .company_txt {
+        width: 100%;
+        padding-top: 135px;
+    }
+    .company_txt h2 {
+        font-size: 38px;
+        width: 90%;
+        padding-bottom: 30px;
+        text-align: center;
+        padding-left: 35px;
+    }
+    .company_txt p {
+        width: 100%;
+        text-align: center;
+        padding: 15px 12px;
+    }
+    .company_boxes {
+        width: 100%;
+        padding-top: 40px;
+        padding-left: 5%;
+    }
+    .company_boxes .box {
+        width: 170px;
+        height: 170px;
+        margin: 25px;
+    }
+    .company_boxes .box h1 {
+        font-size: 35px;
+    }
+    .company_boxes .box p {
+        font-size: 12px;
+    }
+    #room_prices {
+        margin-top: 370px;
+    }
+    .room_rents_price h2 {
+        font-size: 38px;
+        width: 90%;
+        color: #1f373d;
+        padding: 35px 0 30px 20px;
+    }
+    .room_footer_part {
+        display: block;
+    }
+    .room_search_box #search {
+        width: 300px;
+        height: 50px;
+        z-index: 222;
+        border: none;
+        border-radius: 6px;
+        margin: 30px 0 0 18px;
+        position: relative;
+    }
+    .room_search_text {
+        width: 100px;
+        position: relative;
+        left: 298px;
+        top: -50px;
+        z-index: 1111;
+    }
+    .room_btn {
+        margin: 0px 0px 0 20px;
+    }
+    .how_boxes{
+        display: block;
+        padding-bottom: 50px;
+    }
+    .how_box{
+        margin: 25px;
+    }
+    .how_box_two{
+        margin: 25px;
+    }
+    .how_box_three{
+        margin: 25px;
+    }
+    .how_text p {
+        font-size: 13px;
+        padding-bottom: 30px;
+    }
+    .how_text h2 {
+        font-size: 38px;
+    }
+    .service_img{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .service_img img{
+        width: 100%;
+    }
+    .service_text {
+        width: 100%;
+    }
+    .service_footer_text {
+        text-align: center;
+    }
+    .service_footer_text p {
+        font-size: 13px;
+        padding-top: 20px;
+        padding-bottom: 45px;
+    }
+    .agents_text{
+        padding: 0 35px;
+        width: 100%;
+    }
+    .agent_boxes {
+        display: block;
+        margin-left: -5px;
+    }
+    .agents_text h2 {
+        font-size: 38px;
+    }
+    .agents_text p {
+        font-size: 13px;
+        line-height: 25px;
+        padding-bottom: 35px;
+    }
+        
+}
+
+
+/* mobile responsive here */
+@media (max-width:400px){
+    .header_one .menu ul li a{
+        padding: 0 8px;
+    }
+    .header_two_search_box #search {
+        top: 285px;
+    }
+    .header_two_search_box img {
+        top: 302px;
+    }
+    .search_text {
+        top: 285px;
+    }
+    .layer_two {
+        width: 65%;
+        top: 445px;
+        height: 55px;
+    }    
+    .layer_phone {
+        padding: 6px 5px 0 5px;
+        font-size: 12px;
+    }
+    .layer_phone img{
+        width: 15%;
+    }
+    .layer_loction img{
+        width: 12%;
+    }
+    .layer_loction {
+        padding-right: 5px;
+        font-size: 12px;
+    }
+    .header_two_txt {
+        width: 100%;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .header_two .layer_one {
+        height: 460px;
+    }
+    .scroll .sc1 {
+        top: 380px;
+    }
+    .scroll .sc2 {
+        top: 455px;
+        left: 18px;
+    }
+    .header_two {
+        height: 440px;
+    }
+    #company_statistics {
+        width: 100%;
+        height: 650px;
+        display: block;
+    }    
+    .company_txt {
+        width: 100%;
+        padding-top: 125px;
+    }
+    .company_txt h2 {
+        font-size: 32px;
+        width: 85%;
+        padding-bottom: 30px;
+        text-align: center;
+        padding-left: 40px;
+    }
+    .company_txt p {
+        color: #3d5257;
+        width: 100%;
+        line-height: 20px;
+        text-align: center;
+        padding: 15px 12px;
+    }
+    .company_boxes {
+        width: 100%;
+        padding-top: 40px;
+        padding-left: 5%;
+    }
+    .company_boxes .box {
+        width: 150px;
+        height: 150px;
+        margin: 15px;
+    }
+    .company_boxes .box h1 {
+        font-size: 35px;
+    }
+    .company_boxes .box p {
+        font-size: 12px;
+    }
+    #room_prices {
+        margin-top: 370px;
+    }
+    .room_rents_price h2 {
+        font-size: 38px;
+        width: 90%;
+        color: #1f373d;
+        padding: 35px 0 30px 20px;
+    }
+    .room_search_box #search {
+        width: 300px;
+    }
+    .room_search_text {
+        width: 75px;
+    }
+    #services {
+        padding-bottom: 30px;
+    }
+}
+/* small device */
+@media (max-width:370px){
+    .layer_two {
+        width: 70%;
+    }
+    .company_boxes .box {
+        width: 140px;
+        height: 140px;
+    }
+    #room_prices {
+        margin-top: 280px;
+    }
+    .room_box {
+    float: left;
+    width: 100%;
+    max-width: 330px;
+    }
+    .layer_phone {
+        padding: 6px 5px 0 5px;
+        font-size: 12px;
+    }
+    .layer_phone img{
+        width: 15%;
+    }
+    .layer_loction img{
+        width: 12%;
+    }
+    .how_box_three {
+        width: 100%;
+        max-width: 325px;
+    }
+    .how_box_two {
+        width: 100%;
+        max-width: 325px;
+    }
+    .how_box {
+        width: 100%;
+        max-width: 325px;
+    }
+    .agent_boxes {
+        display: block;
+        margin-left: -35px;
+    }
+
+    
+}
